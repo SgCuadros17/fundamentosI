@@ -49,13 +49,15 @@
 # #-----------------------------------------
 # ## Diccionarios (dict)
 # Estructura de datos que almacena pares clave-valor.
-persona = {"nombre": "Juan", "edad": 25, "Ciudad": "Medellin"}
-# <class 'dict'>
-# Acceder y modificar valores**
-#print(persona["nombre"])  # imprime 'Juan'
-# persona["edad"] = 26      # Modificar un valor
-persona["Universidad"] = "UPB" #add una nueva clase valor
-#del persona ["Ciudad"]  #del = eliminar una clave
-#Universidad =persona.get("Universidad", "Dato no encontrado") #.get buscar un valor en especifico
-print(persona.keys())
+# persona = {"nombre": "Juan", "edad": 25, "Ciudad": "Medellin"}
+# # <class 'dict'>
+# # Acceder y modificar valores**
+# #print(persona["nombre"])  # imprime 'Juan'
+# # persona["edad"] = 26      # Modificar un valor
+# persona["Universidad"] = "UPB" #add una nueva clase valor
+# #del persona ["Ciudad"]  #del = eliminar una clave
+# #Universidad =persona.get("Universidad", "Dato no encontrado") #.get buscar un valor en especifico
+# print(persona.keys()) #obtener todas las llaves
+# print(persona.values()) # Obtener todos los valores
+# print(persona.items()) # Obtener todos los pares clave-valor
 
