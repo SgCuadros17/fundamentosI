@@ -29,10 +29,12 @@
 #     print("Reprobado")
 #------------------------------
 #Ej 5
-num=float(input("Ingrese el número: "))
-if num>0:
-    print("El número es positivo")
-elif num<0:
-    print("El número es negativo") 
-else:
-    print("El numero es cero")
+# num=float(input("Ingrese el número: "))
+# if num>0:
+#     print("El número es positivo")
+# elif num<0:
+#     print("El número es negativo") 
+# else:
+#     print("El numero es cero")
+#------------------------------
+#Ej 6
