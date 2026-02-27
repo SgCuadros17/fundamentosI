@@ -67,12 +67,53 @@
 
 # print("la sumatorio de los números es:", suma)
 #-------------------
-tabla = 7
-inicio = 1
+# tabla = int(input("ingrese un numero:"))
+# inicio = 1
 
-while inicio <=10:
-    resultado = tabla * inicio
-    print (tabla, "*", inicio, "=", resultado)
-    inicio +=1
+# while inicio <=10:
+#     resultado = tabla * inicio
+#     print (tabla, "*", inicio, "=", resultado)
+#     inicio +=1
 
-print("el producto de la multiplicación es:", resultado)
+
+# print("el producto de la multiplicación es:", resultado)
+#---------------------------
+# saldo = 1000000
+# opcion = 0
+ 
+# while opcion != 4:
+#     print("\n===Cajero automatico===")
+#     print("1.consultar saldo")
+#     print("2.depositar dinero")
+#     print("3.retirar dinero")
+#     print("4.salir")
+ 
+#     opcion = int(input("seleccione una opcion: "))
+ 
+#     if opcion == 1:
+#         print("su saldo actual es de: ", saldo)
+#     elif opcion == 2:
+#         deposito = int(input("que cantidad desea depositar: "))
+ 
+#         if deposito > 0:
+#             saldo = saldo + deposito
+#             print("deposito exitoso")
+#         else:
+#             print ("error: no se pueden ingresar valores negativos o 0")
+#     elif opcion == 3:
+#         retiro = int(input("ingrese la cantidad que desea retirar:"))
+ 
+#         if retiro <= 0:
+#             print ("error: no se pueden retirar valores negativos o 0")
+#         elif retiro > saldo:
+#             print ("error: saldo insuficiente")
+#         else:
+#             saldo = saldo - retiro
+#             print ("retiro exitoso")
+#     elif opcion == 4:
+#         print ("gracias por usar el cajero")
+#     else:
+#         print ("opcion no valida")
+#--------------------------
+#                                                           ESTRUCTURA FOR en Python
+# El bucle **FOR** se utiliza para recorrer los elementos de un objeto *iterable* (lista, tupla, conjunto, diccionario, …) y ejecutar un bloque de código.
